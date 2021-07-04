@@ -80,3 +80,10 @@ footer p{
 .margin-setteler{
     margin-right: 7%;
 }
+.logo-FB{
+    display: inline-block;
+    font-size: 40px;
+    background-color: aliceblue;
+    border: none;
+
+}

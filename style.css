@@ -1,35 +1,82 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.orange-color{
-    color:orange;
+.orange-color {
+  color: orange;
 }
-section{
-    display: flex;
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
 }
-.half-width{
-    width: 50%;
-    padding-left: 5%;
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  float: left;
+  
 }
-.half-width img{
-    width: 70%;
+.half-width img {
+  width: 90%;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(lightsalmon, tomato);
-    padding: 10px 40px;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.link-button:hover {
+  background-image: linear-gradient(rgb(5, 2, 0), rgb(0, 0, 0));
+  color: rgb(236, 225, 225);
+}
+.top-banner {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+}
+.warrior-big {
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-unit{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
-    color:white;
-    font-weight: 700;
-
-}
-.top-banner{
-    background-image: url(top-banner.png);
-    background-repeat: no-repeat;
     
+    
+}
+#web-dev-experience{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#full-stack-experience{
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+h2{
+    font-size: 40px;
+}
+.experience-zone{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+footer p{
+    text-align: center ;
+}
+.experience-zone div{
+    height:400px;
+}
+.margin-setteler{
+    margin-right: 7%;
 }

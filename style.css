@@ -50,7 +50,13 @@ h1 {
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
     
-    
+}
+.experience-unit:hover {
+   background-color: black;
+   color: whitesmoke;
+   cursor: pointer;
+   transition: all 1s;
+   transform: translateY(-15px);
 }
 #web-dev-experience{
     border-image: linear-gradient(blue, cyan);
@@ -80,10 +86,30 @@ footer p{
 .margin-setteler{
     margin-right: 7%;
 }
-.logo-FB{
-    display: inline-block;
-    font-size: 40px;
-    background-color: aliceblue;
-    border: none;
-
+.footer-details{
+  font-family: 'Tourney', cursive;
+}
+#contact_text{
+  text-align: center;
+  text-shadow: 2px 2px red;
+}
+.details-info h2{
+  margin-bottom: -6px;
+  letter-spacing: 5px;
+  
+}
+.details-info{
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  color: rgb(21, 31, 34);
+  text-shadow: 1px 1px rgb(145, 222, 224);
+  letter-spacing: 2px;
+}
+.half-width-contact{
+  width: 60%;
+  padding-left: 5%;
+  float: left;
+}
+.contact-container{
+  margin-right: 42px ;
 }
